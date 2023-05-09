@@ -1,0 +1,86 @@
+.profile-page {
+    
+    height: 700px; /* set the page length to 1000 pixels */
+
+    display: flex;
+    flex-direction: column;
+    
+    font-size: 20px;
+    padding: 20px;
+    background-image: linear-gradient(to right top, rgb(189, 142, 230),rgb(189, 142, 230), rgb(189, 142, 230));
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+  }
+  .edit-mode label,
+  .view-mode div {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .edit-mode input[type="text"],
+  .edit-mode input[type="email"],
+  .edit-mode input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background-color: transparent;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .edit-mode input[type="text"]:focus,
+  .edit-mode input[type="email"]:focus,
+  .edit-mode input[type="password"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  .edit-mode button {
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .edit-mode button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .view-mode button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .view-mode button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .view-mode div {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .view-mode div:first-child {
+    margin-top: 20px;
+  }

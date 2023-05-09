@@ -1,0 +1,24 @@
+.cardDesign {
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 300px;
+    height: 450;
+    transition: all linear 200ms;
+    margin-bottom: 50px !important;
+}
+
+.cardDesign:hover {
+    cursor: pointer;
+    transform: scale(1,1);
+    transform: all linear 200ms;
+    z-index: 1;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+    border: none !important;
+}

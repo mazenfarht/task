@@ -1,0 +1,33 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -1.5rem;
+    margin-left: -1.5rem;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.ml-auto, .mx-auto {
+    margin-left: auto ;
+}
+.mr-auto, .mx-auto {
+    margin-right: auto ;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+.floating-label-form-group {
+    position: relative;
+    border-bottom: 1px solid #e9ecef;
+}
+.pb-2 {
+    padding-bottom: 0.5rem ;
+}
+.mb-0{
+    margin-bottom: 0 ;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
